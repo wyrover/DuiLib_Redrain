@@ -4,6 +4,8 @@
 #	else
 #		define UILIB_API 
 #	endif
+#elif defined(UILIB_STATIC)
+#   define UILIB_API
 #else
 #	if defined(_MSC_VER)
 #		define UILIB_API __declspec(dllimport)
