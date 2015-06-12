@@ -1,17 +1,13 @@
 #pragma once
 
 #ifdef _DEBUG
-#   ifdef _UNICODE
-#       pragma comment(lib, "DuiLib_ud.lib")
-#   else
-#       pragma comment(lib, "DuiLib_d.lib")
-#   endif
+#   
+#       pragma comment(lib, "../../../../../lib/x86/vc8_mtd/DuiLib_static_mtd.lib")
+#  
 #else
-#   ifdef _UNICODE
-#       pragma comment(lib, "DuiLib_u.lib")
-#   else
-#       pragma comment(lib, "DuiLib.lib")
-#   endif
+#   
+#       pragma comment(lib, "../../../../../lib/x86/vc8_mt/DuiLib_static_mt.lib")
+#   
 #endif
 
 

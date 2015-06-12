@@ -133,7 +133,7 @@ void CFrameWnd::Notify( TNotifyUI& msg )
 		 }
 
 		 delete strMenuName;
-	 }
+     } 
 	 bHandled = false;
 	 return 0;
  }
